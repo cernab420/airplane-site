@@ -1,0 +1,107 @@
+.flexWrap {
+  display: flex;
+  width: 100%;
+}
+
+.flexCol1 {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 200px;
+  background: black;
+  color: white;
+  border: 1px solid yellow;
+}
+
+.flexCol2 {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 200px;
+  background: black;
+  color: white;
+  border: 1px solid yellow;
+}
+
+.flexCol3 {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 200px;
+  background: black;
+  color: white;
+  border: 1px solid yellow;
+}
+
+.flexCol4 {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 200px;
+  background: black;
+  color: white;
+  border: 1px solid yellow;
+}
+.left-links {
+  display: flex;
+  flex-direction: row;
+}
+.right-links {
+  display: flex;
+  flex-direction: row;
+}
+.search {
+  box-sizing: border-box;
+  padding: 10px;
+  width: 400px;
+  background: black;
+  color: white;
+  border: 1px solid yellow;
+}
+nav {
+  background-color: black;
+  display: flex;
+  height: 65px;
+  align-items: center;
+  justify-content: space-between;
+}
+.categories {
+  display: flex;
+  background-color: blanchedalmond;
+  height: 650px;
+  width: 1410px;
+  justify-content: space-between;
+  align-items: center;
+}
+.boeing {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  height: 300px;
+  width: 500px;
+  margin-left: 100px;
+  justify-content: center;
+  align-items: center;
+
+  filter: drop-shadow(5px 10px 20px #000000);
+}
+.Airbus {
+  display: flex;
+  background-color: white;
+  height: 310px;
+  width: 500px;
+  margin-right: 100px;
+  filter: drop-shadow(5px 10px 20px #000000);
+  border-radius: 10px;
+}
+.boeing img {
+  height: 300px;
+  width: 500px;
+  object-fit: contain;
+  border-radius: 10px;
+
+  border: solid black 5px;
+}
+.Airbus img {
+  height: 300px;
+  width: 500px;
+  object-fit: contain;
+  border-radius: 10px;
+
+  border: solid black 5px;
+}
